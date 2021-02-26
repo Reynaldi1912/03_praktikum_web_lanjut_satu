@@ -17,22 +17,31 @@ class HomeController extends Controller
     // }
 
    
-    public function home(){
-        return view('Home');
-    }
+    // public function home(){
+    //     return view('Home');
+    // }
     public function news(){
         return view('news');
     }
-    public function product(){
-        return view('category.product');
-    }
-    public function program(){
-        return view('category.program');
-    }
+    // public function product(){
+    //     return view('category.product');
+    // }
+    // public function program(){
+    //     return view('category.program');
+    // }
     public function contact(){
-        return view('contact');
+        return view('contactt');
     }
     public function about(){
         return view('about');
+    }
+    public function index(){
+        return view('index');
+    }
+    public function product(){
+        return view('product');
+    }
+    public function program(){
+        return view('program');
     }
 }

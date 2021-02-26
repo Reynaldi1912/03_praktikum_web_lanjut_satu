@@ -28,15 +28,19 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'home']);
 
-Route::prefix('/category')->group(function(){
-    Route::get('product', [HomeController::class, 'product'])->name('product');
+// Route::prefix('/category')->group(function(){
+//     Route::get('product', [HomeController::class, 'product'])->name('product');
+//     Route::get('program', [HomeController::class, 'program'])->name('program');
+// });
+Route::get('product', [HomeController::class, 'product'])->name('product');
     Route::get('program', [HomeController::class, 'program'])->name('program');
-});
-
-Route::get('/news', [HomeController::class, 'news'])->name('news');
+Route::get('/news', [HomeController::class, 'news']);
 
 
-Route::get('/about-us', [HomeController::class, 'about'])->name('about-us');
+Route::get('/about', [HomeController::class, 'about']);
 
 
-Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/contact', [HomeController::class, 'contact']);
+
+Route::get('/', [HomeController::class, 'index']);
+

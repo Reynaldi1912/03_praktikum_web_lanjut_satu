@@ -8,7 +8,10 @@
         <p><b>Nama : </b> Reynaldi Ramadhani Eka Purnomo</p> <br>
         <p><b>NIM : </b> 1941720142</p> <br>
         <p><b>Kelas : </b> TI-2D</p> <br>
-
+        <br><br><br>
+        <p><b>Nama : </b> Reynaldi Ramadhani Eka Purnomo</p> <br>
+        <p><b>NIM : </b> 1941720142</p> <br>
+        <p><b>Kelas : </b> TI-2D</p> <br>
     </body>
 </html>
 @endsection

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-     <title>Digital Trend Contact</title>
+     <title>Digital Trend - Blog Detail</title>
 <!--
 
 DIGITAL TREND
@@ -30,9 +30,9 @@ https://templatemo.com/tm-538-digital-trend
 <body>
 
      <!-- MENU BAR -->
-    <nav class="navbar navbar-expand-lg position-absolute">
+    <nav class="navbar navbar-expand-lg position-relative">
         <div class="container">
-          <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.html">
               <i class="fa fa-line-chart"></i>
               Digital Trend
             </a>
@@ -54,7 +54,7 @@ https://templatemo.com/tm-538-digital-trend
                         <a href="blog.html" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link active contact">Contact</a>
+                        <a href="contact.html" class="nav-link contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -62,58 +62,94 @@ https://templatemo.com/tm-538-digital-trend
     </nav>
 
 
-     <!-- CONTACT -->
-     <section class="contact section-padding">
+     <!-- BLOG DETAIL -->
+     <section class="project-detail section-padding-half">
           <div class="container">
                <div class="row">
 
-                    <div class="col-lg-6 mx-auto col-md-7 col-12 py-5 mt-5 text-center" data-aos="fade-up">
+                    <div class="col-lg-9 mx-auto col-md-10 col-12 mt-lg-5 text-center" data-aos="fade-up">
+                      <h4 class="blog-category text-info">Creative Work</h4>
+                      
+                      <h1>9 useful things to learn and practice for your digital marketing</h1>
 
-                      <h1 class="mb-4">Hey there, Let's <strong>talk</strong> about <strong>creative</strong> projects</h1>
+                      <div class="client-info">
+                          <div class="d-flex justify-content-center align-items-center mt-3">
+                            <img src="images/project/project-detail/male-avatar.png" class="img-fluid" alt="male avatar">
 
-                      <p>or email us at <a href="mailto:hello@company.com">hello@company.com</a></p>
-                      <p>Please follow our <a rel="nofollow" href="https://templatemo.com/contact">contact page</a> to <strong>setup</strong> the contact form.</p>
-                    </div>
-
-                    <div class="col-lg-8 mx-auto col-md-10 col-12">
-                    
-                    <!-- Follow https://templatemo.com/contact page to setup your own contact form -->
-                    
-                      <form action="#" method="post" class="contact-form" data-aos="fade-up" data-aos-delay="300" role="form">
-                        <div class="row">
-                          <div class="col-lg-6 col-12">
-                            <input type="text" class="form-control" name="name" placeholder="Name">
+                            <p>Sweet Candy</p>
                           </div>
-
-                          <div class="col-lg-6 col-12">
-                            <input type="email" class="form-control" name="email" placeholder="Email">
-                          </div>
-
-                          <div class="col-lg-12 col-12">
-                            <textarea class="form-control" rows="6" name="message" placeholder="Message"></textarea>
-                          </div>
-
-                          <div class="col-lg-5 mx-auto col-7">
-                            <button type="submit" class="form-control" id="submit-button" name="submit">Send Message</button>
-                          </div>
-                        </div>
-
-                      </form>
+                      </div>
                     </div>
 
                </div>
           </div>
      </section>
 
-<!-- How to change your own map point
-	1. Go to Google Maps
-	2. Click on your location point
-	3. Click "Share" and choose "Embed map" tab
-	4. Copy only URL and paste it within the src="" field below
--->
-     <div class="google-map" data-aos="zoom-in">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11196.961132529668!2d-43.38581128725845!3d-23.011063013218724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdb695cd967b7%3A0x171cdd035a6a9d84!2sAv.%20L%C3%BAcio%20Costa%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%20Brazil!5e0!3m2!1sen!2sth!4v1568649412152!5m2!1sen!2sth" width="1920" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+     <div class="full-image text-center" data-aos="zoom-in">
+       <img src="images/blog/blog-header-image.jpg" class="img-fluid" alt="blog header">
      </div>
+
+
+     <!-- BLOG DETAIL -->
+     <section class="project-detail">
+          <div class="container">
+               <div class="row">
+
+                  <div class="col-lg-9 mx-auto col-md-11 col-12 my-5 pt-3" data-aos="fade-up">
+
+                    <h2 class="mb-3">Etiam quis metus elementum, tempor risus vel, condimentum orci.</h2>
+
+                    <p>Mauris in convallis nunc, non facilisis arcu. Nunc sapien nulla, interdum at diam non, aliquam vestibulum leo. Fusce laoreet malesuada ante, consectetur consequat ante tempor et. Quisque ac risus ligula.</p>
+
+                    <p>Suspendisse bibendum tortor at est placerat auctor. Phasellus tortor est, bibendum eu ex eu, tincidunt efficitur nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+                    <ul class="list-detail py-3">
+                      <li><span>Quisque at condimentum est. Duis sollicitudin urna id elit pulvinar placerat. Ut ac dui in ex vulputate dictum.</span></li>
+
+                      <li><span>Mauris vitae tellus nisi. Morbi rutrum lacus sit amet volutpat viverra.</span></li>
+
+                      <li><span> Integer maximus sem ut ipsum blandit elementum. Nullam sollicitudin accumsan commodo.</span></li>
+                    </ul>
+
+                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus elementum, tempor risus vel, condimentum orci.</p>
+
+                    <h2 class="mt-5 mb-3">Curabitur tempus vel libero lobortis feugiat</h2>
+
+                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris in convallis nunc, non facilisis arcu. Nunc sapien nulla, interdum at diam non, aliquam vestibulum leo.</p>
+
+                    <blockquote>Phasellus dapibus ex sed dolor blandit, efficitur iaculis ipsum scelerisque. Cras elementum nibh id felis sagittis, sit amet pellentesque ligula porttitor. Fusce laoreet malesuada ante, consectetur consequat ante tempor et. Quisque ac risus ligula.</blockquote>
+                    </div>
+               </div>
+
+              <div class="col-lg-8 mx-auto mb-5 pb-5 col-12" data-aos="fade-up">
+
+                <h3 class="my-3" data-aos="fade-up">Leave a comment</h3>
+
+                <form action="#" method="get"  class="contact-form" data-aos="fade-up" data-aos-delay="300" role="form">
+                  <div class="row">
+                    <div class="col-lg-6 col-12">
+                      <input type="text" class="form-control" name="name" placeholder="Name">
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                      <input type="email" class="form-control" name="email" placeholder="Email">
+                    </div>
+
+                    <div class="col-lg-12 col-12">
+                      <textarea class="form-control" rows="6" name="message" placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="col-lg-5 mx-auto col-7">
+                      <button type="submit" class="form-control" id="submit-button" name="submit">Submit Comment</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              
+          </div>
+          
+     </section>
 
 
     <footer class="site-footer">
