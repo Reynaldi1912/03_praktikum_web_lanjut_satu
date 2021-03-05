@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\AboutController;
+
+
 
 
 /*
@@ -32,12 +36,12 @@ Route::get('/', [HomeController::class, 'home']);
 //     Route::get('product', [HomeController::class, 'product'])->name('product');
 //     Route::get('program', [HomeController::class, 'program'])->name('program');
 // });
-Route::get('product', [HomeController::class, 'product'])->name('product');
+Route::get('product', [PostController::class, 'index'])->name('index');
     Route::get('program', [HomeController::class, 'program'])->name('program');
 Route::get('/news', [HomeController::class, 'news']);
 
 
-Route::get('/about', [HomeController::class, 'about']);
+Route::get('/about', [AboutController::class, 'index']);
 
 
 Route::get('/contact', [HomeController::class, 'contact']);
