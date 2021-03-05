@@ -17,6 +17,7 @@ class CreatePostsTable extends Migration
             $table->increments('id');
             $table->string('nama');
             $table->text('link');
+            $table->text('picture');
             $table->timestamps();
         });
     }
